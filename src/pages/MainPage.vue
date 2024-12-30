@@ -4,7 +4,7 @@
     <div v-else-if="error" class="error">{{ error }}</div>
     <div v-else class="movies-grid">
       <MovieCard
-        v-for="movie in movies"
+        v-for="movie in limitedMovies"
         :key="movie.id"
         :movie="movie"
         @click="goToDetail(movie.id)"
@@ -14,7 +14,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 import MovieCard from '@/components/MovieCard.vue';
 
@@ -32,6 +32,8 @@ const movies = ref<Movie[]>([]);
 const loading = ref(true);
 const error = ref<string | null>(null);
 const router = useRouter();
+
+const limitedMovies = computed(() => movies.value.slice(0, 16));
 
 function goToDetail(id: number) {
   router.push({ path: `/movie/${id}` });

@@ -1,5 +1,34 @@
-# Vue 3 + TypeScript + Vite
+# Vue 3 Movie App
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Приложение для отображения списка фильмов и их детальной информации. Реализовано в рамках тестового задания.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Функционал
+
+- Главная страница: список фильмов (до 16 элементов).
+- Детальная страница: подробная информация о фильме.
+- Маршруты: `/` (главная) и `/movie/:id` (детальная страница).
+- Плавные переходы между страницами (fade-эффект).
+- Данные загружаются из локальных JSON-файлов: `movies.json` и `detail.json`.
+- Общие хедер и футер на всех страницах.
+
+## Технологии
+
+- **Vue 3**: разработка интерфейсов.
+- **Vue Router**: маршрутизация.
+- **TypeScript**: типизация.
+- **Vite**: сборка проекта.
+- **SCSS**: стилизация с вложенностью.
+
+## Макет
+
+Макет приложения доступен в Figma: [Test Task – Figma](https://www.figma.com/design/BlPoFINgaZHkUFN9uvo6dz/Test-Task?node-id=1-3&p=f&t=nlmv15IEyqROJ5r8-0).
+
+## Установка и запуск
+
+1. Склонируйте проект или скачайте архив.
+2. Убедитесь, что установлен Node.js версии 16+.
+3. Установите зависимости:
+   npm install
+4. Запустите проект:
+    npm run dev
+5. Откройте http://localhost:5173 в браузере.
