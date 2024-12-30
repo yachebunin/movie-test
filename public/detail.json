@@ -1,0 +1,224 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Crystal Valentine",
+      "description": "Extended description for Crystal Valentine movie.",
+      "duration": "0:50",
+      "rating": 7.0415,
+      "poster": null,
+      "genre": "drama",
+      "trivia": [
+        "Fact 1 about Crystal Valentine",
+        "Fact 2 about Crystal Valentine"
+      ],
+      "actors": [
+        {
+          "name": "Jack Nicholson",
+          "imdb_id": "nm0000197"
+        },
+        {
+          "name": "Natalie Portman",
+          "imdb_id": "nm0000204"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Vang Joseph",
+      "description": "Extended description for Vang Joseph movie.",
+      "duration": "0:29",
+      "rating": 1.2754,
+      "poster": null,
+      "genre": "comedy",
+      "trivia": [
+        "Trivia 1 about Vang Joseph",
+        "Trivia 2 about Vang Joseph"
+      ],
+      "actors": [
+        {
+          "name": "Tom Hanks",
+          "imdb_id": "nm0000158"
+        },
+        {
+          "name": "Brad Pitt",
+          "imdb_id": "nm0000093"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Cortez Abbott",
+      "description": "Extended description for Cortez Abbott movie.",
+      "duration": "3:18",
+      "rating": 7.341,
+      "poster": null,
+      "genre": "action",
+      "trivia": [
+        "Trivia One",
+        "Trivia Two"
+      ],
+      "actors": [
+        {
+          "name": "Jack Nicholson",
+          "imdb_id": "nm0000197"
+        },
+        {
+          "name": "George Clooney",
+          "imdb_id": "nm0000123"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Cortez Abbott 2",
+      "description": "Extended description for Cortez Abbott 2 movie.",
+      "duration": "3:18",
+      "rating": 7.341,
+      "poster": null,
+      "genre": "action",
+      "trivia": [
+        "Trivia One",
+        "Trivia Two"
+      ],
+      "actors": [
+        {
+          "name": "Johnny Depp",
+          "imdb_id": "nm0000136"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Cortez Abbott 3",
+      "description": "Extended description for Cortez Abbott 3 movie.",
+      "duration": "3:18",
+      "rating": 7.341,
+      "poster": null,
+      "genre": "action",
+      "trivia": [
+        "Trivia One",
+        "Trivia Two"
+      ],
+      "actors": [
+        {
+          "name": "Leonardo DiCaprio",
+          "imdb_id": "nm0000138"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Cortez Abbott 4",
+      "description": "Extended description for Cortez Abbott 4 movie.",
+      "duration": "3:18",
+      "rating": 7.341,
+      "poster": null,
+      "genre": "action",
+      "trivia": [
+        "Trivia One",
+        "Trivia Two"
+      ],
+      "actors": [
+        {
+          "name": "Morgan Freeman",
+          "imdb_id": "nm0000151"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "name": "Cortez Abbott 3",
+      "description": "Extended description for Cortez Abbott 3 movie (another one).",
+      "duration": "3:18",
+      "rating": 7.341,
+      "poster": null,
+      "genre": "action",
+      "trivia": [
+        "Alternate version of Trivia"
+      ],
+      "actors": [
+        {
+          "name": "Nicole Kidman",
+          "imdb_id": "nm0000173"
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "name": "Cortez Abbott 4",
+      "description": "Extended description for Cortez Abbott 4 movie (another one).",
+      "duration": "3:18",
+      "rating": 7.341,
+      "poster": null,
+      "genre": "action",
+      "trivia": [],
+      "actors": []
+    },
+    {
+      "id": 111,
+      "name": "Cortez Abbott 3",
+      "description": "Extended description for Cortez Abbott 3 movie (yet another).",
+      "duration": "3:18",
+      "rating": 7.341,
+      "poster": null,
+      "genre": "action",
+      "trivia": [
+        "Fun fact about version #3"
+      ],
+      "actors": [
+        {
+          "name": "Meryl Streep",
+          "imdb_id": "nm0000658"
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Cortez Abbott 4",
+      "description": "Extended description for Cortez Abbott 4 movie (yet another).",
+      "duration": "3:18",
+      "rating": 7.341,
+      "poster": null,
+      "genre": "action",
+      "trivia": [
+        "Fun fact about version #4"
+      ],
+      "actors": [
+        {
+          "name": "Denzel Washington",
+          "imdb_id": "nm0000243"
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "name": "Cortez Abbott 3",
+      "description": "Extended description for Cortez Abbott 3 movie (test).",
+      "duration": "3:18",
+      "rating": 7.341,
+      "poster": null,
+      "genre": "action",
+      "trivia": [],
+      "actors": []
+    },
+    {
+      "id": 114,
+      "name": "Cortez Abbott 4",
+      "description": "Extended description for Cortez Abbott 4 movie (test).",
+      "duration": "3:18",
+      "rating": 7.341,
+      "poster": null,
+      "genre": "action",
+      "trivia": [
+        "Test fact"
+      ],
+      "actors": [
+        {
+          "name": "Christian Bale",
+          "imdb_id": "nm0000288"
+        }
+      ]
+    }
+  ]
+}
